@@ -1,328 +1,261 @@
-        @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-        @font-face {
-            font-family: geometria;
-            src: url('../css/Geometria/Geometria-Light.ttf') format('truetype');
-        }
-        
-        html,
-        body,
-        div,
-        span,
-        applet,
-        object,
-        iframe,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        p,
-        blockquote,
-        pre,
-        a,
-        abbr,
-        acronym,
-        address,
-        big,
-        cite,
-        code,
-        del,
-        dfn,
-        em,
-        font,
-        img,
-        ins,
-        kbd,
-        q,
-        s,
-        samp,
-        small,
-        strike,
-        strong,
-        sub,
-        sup,
-        tt,
-        var,
-        b,
-        u,
-        i,
-        center,
-        dl,
-        dt,
-        dd,
-        ol,
-        ul,
-        li,
-        fieldset,
-        form,
-        label,
-        legend,
-        caption {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            outline: 0;
-            font-size: 100%;
-            vertical-align: baseline;
-            background: transparent;
-        }
-        
-        body {
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-attachment: fixed;
-            box-sizing: border-box;
-            height: 100vh;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            padding: 0 30px;
-            width: 100%;
-            background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("./DSC_0631\ -\ Copy.JPG") no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            margin: 0;
-            padding: 0;
-            font-family: geometria;
-        }
-        /* STYLING OF TAGS IN HEADER ELEMENT */
-        
-        nav ul {
-            margin-top: 0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            margin-right: 2em;
-            font-size: 17px;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style-type: none;
-        }
-        
-        .CV {
-            border: 100%;
-        }
-        /* Create two columns/boxes that floats next to each other */
-        
-        .aside {
-            float: right;
-            width: 30%;
-            height: 300px;
-            /* only for demonstration, should be removed */
-            background: transparent;
-            padding: 20px;
-        }
-        
-        .h1 {
-            text-align: center;
-            font-size: 3rem;
-            color: #FFFFFF;
-            font-family: 'Playfair Display', serif;
-            font-weight: bolder;
-            float: left;
-            margin: 30px 15% 30px 10%;
-        }
-        /*.h2 {
-            text-align: center;
-            font-size: 1rem;
-            color: #FFFFFF;
-            font-family: 'Playfair Display', serif;
-            font-weight: small;
-            float: left;
-            margin: 30px 15% 30px 10%;
-        }*/
-        
-        .style1,
-        .style2,
-        .style3,
-        .style4,
-        .style5,
-        .style6,
-        .style7,
-        .style8,
-        .style9,
-        .style10,
-        .style11,
-        .style12,
-        .style13,
-        .style14,
-        .style15,
-        .style16 {
-            color: #ffffff;
-        }
-        
-        h2 {
-            color: #ffffff
-        }
-        
-        p {
-            color: #ffffff;
-            font-weight: bold;
-        }
-        
-        .img {
-            border-radius: 50%;
-        }
-        
-        #text1 {
-            width: 200%;
-            opacity: 60%;
-            height: 10%;
-            border: 50%;
-        }
-        
-        .refine {
-            width: 100%;
-            opacity: 60%;
-            height: 1 rem;
-            border: 100%;
-        }
-        
-        .CV1 {
-            background-color: rgb(22, 33, 66);
-            border: 100%;
-            height: 100px;
-            color: white;
-            border: 100%;
-        }
-        
-        h1 {
-            color: #C5D86D;
-            text-decoration: underline;
-            border: 100%;
-            font-size: 1.5rem;
-        }
-        
-        .special {
-            font-weight: bold;
-        }
-        
-        #text1 {
-            color: white;
-            border: 100%;
-        }
-        
-        #text2 {
-            color: blue;
-            border: 100%;
-        }
-        
-        #text3 {
-            color: white;
-            border: 100%;
-        }
-        
-        .profile 15 {
-            background-color: white;
-            text-decoration: none;
-            color: black;
-            Padding: 0%;
-            margin: 1fr;
-            font-weight: bold;
-            border: 100%;
-        }
-        /*.btn,
-.btn1,
-.btn2,
-.btn3,
-.btn4,
-.btn5,
-.btn6,
-.btn7,
-*/
-        
-        .btn,
-        .btn1 {
-            display: inline-block;
-            background: gray;
-            color: white;
-            Padding: 0.4rem 0.4rem;
-            border: none;
-            cursor: pointer;
-            font-size: 1.1rem;
-            border-radius: 30px;
-            text-align: center;
-        }
-        
-        a {
-            color: #C5D86D;
-        }
-        
-        .btn-group button {
-            background-color: gray;
-            /* Green background */
-            border: 1px solid green;
-            /* Green border */
-            color: white;
-            /* White text */
-            padding: 10px 24px;
-            /* Some padding */
-            cursor: pointer;
-            /* Pointer/hand icon */
-            float: left;
-            /* Float the buttons side by side */
-            justify-content: space-between;
-            border-radius: 30px;
-            display: inline-block;
-        }
-        
-        .btn-group button:not(:last-child) {
-            border-right: none;
-            /* Prevent double borders */
-        }
-        /* Clear floats (clearfix hack) */
-        
-        .btn-group:after {
-            content: "";
-            clear: both;
-            display: inline-block;
-        }
-        /* Add a background color on hover */
-        
-        .btn-group button:hover {
-            background-color: #3e8e41;
-        }
-        
-        .btn10,
-        .btn11,
-        .btn12,
-        .btn13,
-        .btn14 {
-            display: inline-block;
-            background: gray;
-            color: white;
-            border-color: black;
-            Padding: 0.4rem 0.4rem;
-            border: none;
-            cursor: pointer;
-            font-size: 1.1rem;
-            border-radius: 30px;
-            text-align: center;
-        }
-        
-        .profile {
-            background-color: white;
-            text-decoration: none;
-            color: black;
-            Padding: 0%;
-            margin: 1fr;
-            font-weight: normal;
-            border: 100%;
-        }
-        
-        footer {
-            background-color: white;
-            color: black;
-            text-align: center;
-            border: 100%;
-            padding: 0%;
-        }
+       @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@font-face {
+    font-family: geometria;
+    src: url('../css/Geometria/Geometria-Light.ttf') format('truetype');
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 30px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("./DSC_0631\ -\ Copy.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: geometria;
+}
+
+
+/*.label {
+    background: rgba(250, 250, 250, 0.28);
+    padding: 30px;
+    margin: 50px 15% 50px 15%;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}*/
+
+.label {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(250, 250, 250, 0.28);
+    padding: 30px;
+    margin: 30px 15% 30px 15%;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+
+/* STYLING OF TAGS IN HEADER ELEMENT */
+
+nav {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 2em;
+    font-size: 17px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    float: left;
+    margin: 30px 50% 30px 10%;
+}
+
+::placeholder {
+    color: #404040;
+    font-size: 1.75em;
+}
+
+input[type=text] {
+    width: 50%;
+    height: 2rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #364D2E;
+    border-radius: 4px;
+}
+
+input[type=varchar] {
+    width: 50%;
+    height: 3rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #364D2E;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #364D2E;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#name1,
+#name2,
+#name3,
+#name4 {
+    font-family: Gayathri;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #E3BC58;
+    position: static;
+}
+
+
+}
+
+/* STYLING OF EVERYTHING INSIDE THE FORM CONTAINER */
+.form-style {
+    background: rgba(250, 250, 250, 0.28);
+    padding: 30px;
+    margin: 50px 15% 50px 15%;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+.form-style {
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+ ::placeholder {
+    color: #404040;
+    font-size: 0.75em;
+}
+.submit[type="submit"] {
+    /* -moz-box-shadow: inset 0px 1px 0px 0px #ffbb01;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #ffbb01;*/
+    
+    box-shadow: inset 0px 1px 0px 0px #ffc001;
+    background-color: #014127;
+    border: 1px solid #ffbb01;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 20px Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50% 30px 50%;
+    /* float: left;*/
+}
+.submit[type="submit"]:hover {
+    background: linear-gradient(to bottom, #ffbb01 5%, #ff8d01 100%);
+    background-color: #ff8d01;
+}
+.table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/* FOR RESPONSIVENESS ON MOBILE */
+@media screen and (max-width: 600px) {
+    .form-style div input.align-left {
+        float: none;
+    }
+    
+    .form-style div input.align-right {
+        float: none;
+    }
+    
+    .form-style div .field-split {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .form-style div {
+        margin-bottom: 0px;
+    }
+}
+40 volunteer.html
