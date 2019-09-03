@@ -140,7 +140,11 @@
             float: left;
             margin: 30px 15% 30px 10%;
         }*/
-        
+#footer,
+        #footer1 {
+            color: black
+        }        
+
         .style1,
         .style2,
         .style3,
