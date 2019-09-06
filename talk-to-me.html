@@ -1,3 +1,11 @@
+<?php
+if ($_POST["submit"]=="check"){
+<script lang="javascript">alert("successful")</script>
+
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +13,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="msvalidate.01" content="742FCBDE1F9C4E17BD9DBBC58A1A438B" />
     <link rel="stylesheet" href="./css/talk-to-mestyle.css">
     <link href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans" rel="stylesheet">
     <title>Talk to Us</title>
@@ -22,22 +29,21 @@
     <h1>
         I want to talk to you
     </h1>
-   <div class="table">
-        <form action="./welcome_get.php" class="label">
+    <div class="table">
+        <form action="welcome_get.php" class="label">
             <label for="Name" id="name1">Name</label><br>
             <input pattern=".{4,20}" type="text" name="name" id="Name" placeholder="Full Name" required title="4 to 20 characters"><br>
             <label for="email" id="name2">Email</label><br>
-            <input type="text" name="email" id="email" placeholder="name@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required title="Please input name@email.com"><br>
+            <input type="text" name="email" id="email" placeholder="name@gmail.com" required><br>
             <label for="Phone Number" id="name3">Phone Number</label><br>
-            <input type="varchar" name="Phone Number" id="Phone Number" placeholder="Tel No" pattern="[0-9]{10,12}" required title="Please enter valid Phone-Number"><br>
+            <input type="varchar" name="Phone Number" id="Phone Number" placeholder="Tel No" required><br>
             <p id="name4">Talk to Us</p><br>
             <textarea maxlength="250" minlength="20" name="Message" id="Message" cols="30" rows="10" placeholder="Talk to us" required> </textarea>
-            <button type="submit" class="submit" value="check">Submit</button>
+            <button type="submit" class="submit" value="check" id="submit">Submit</button>
         </form>
         <br>
         <br>
         <br>
-
     </div>
     </body>
     <script>
@@ -45,5 +51,6 @@
             document.getElementById("myForm").style.display = "block";
         }
     </script>
+
 
 </html>
