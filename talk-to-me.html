@@ -26,9 +26,9 @@
             <label for="Name" id="name1">Name</label><br>
             <input pattern=".{4,20}" type="text" name="name" id="Name" placeholder="Full Name" required title="4 to 20 characters"><br>
             <label for="email" id="name2">Email</label><br>
-            <input type="text" name="email" id="email" placeholder="name@gmail.com" required><br>
+            <input type="text" name="email" id="email" placeholder="name@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
             <label for="Phone Number" id="name3">Phone Number</label><br>
-            <input type="varchar" name="Phone Number" id="Phone Number" placeholder="Tel No" required><br>
+            <input type="varchar" name="Phone Number" id="Phone Number" placeholder="Tel No" pattern="[0-9]{12}" required><br>
             <p id="name4">Talk to Us</p><br>
             <textarea maxlength="250" minlength="20" name="Message" id="Message" cols="30" rows="10" placeholder="Talk to us" required> </textarea>
             <button type="submit" class="submit" value="check">Submit</button>
