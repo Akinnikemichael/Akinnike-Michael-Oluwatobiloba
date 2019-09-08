@@ -18,5 +18,5 @@
 
 Welcome <?php echo $_GET["name"]; ?><br>
 Your email address is: <?php echo $_GET["email"]; ?><br>
-Your Phone Number is: <?php echo $_GET["PhoneNumber"]; ?>
+Your Phone Number is: <?php echo $_GET["PhoneNumber"]; ?><br>
 Your Message for Michael is: <?php echo $_GET["Message"]; ?>
